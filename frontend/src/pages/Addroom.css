@@ -1,0 +1,66 @@
+.addroom-base{
+    display: flex;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.addroom-main{
+    
+    height: 500px;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 50px; 
+}
+.addroom-row{
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.addroom-col input, 
+.addroom-col select{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+}
+
+.addroom-col option{
+    background: rgba(19, 13, 17, 0.1);
+    color: #1c1c1c;
+}
+.addroom-col input:hover,
+.addroom-col select:hover{
+    background: #6dbbbf;
+    color: #1c1c1c;
+}
+
+.addroom-heading{
+    color: aliceblue;
+    text-shadow: 0 0 10px #e3e394,0 0 20px #e3e394,0 0 40px #e3e394,
+    0 0 80px #e3e394,0 0 120px #e3e394;
+    justify-content: center;
+    width: 100%;
+    font-size: 33px;
+    margin-top: 100px;
+    
+    letter-spacing: 0.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.addroom-button{
+    background: #6dbbbf;
+    padding: 5px;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 21px;
+    justify-content: center;
+}

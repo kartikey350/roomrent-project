@@ -1,0 +1,205 @@
+.adminhome-base{
+    background:url(https://th.bing.com/th/id/R.097e0891eaf7a12f4fa4cdc80c74e95e?rik=ktfuU9cX7WcGSA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fe%2f3%2f6%2f1295377-room-desktop-wallpaper-2560x1600-720p.jpg&ehk=COPuD2n2vwvSXz0%2bztbT7zSwQKdam0yKGWrhIioxfFQ%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.adminhome-basebox{
+    padding: 100px;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.366);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+@keyframes animatetext{
+    0%{
+        color: transparent;
+        margin-top: -300px;
+    }
+    10%{
+    margin-top: -185px;
+    }
+    20%{
+        margin-top: 70px;
+    }
+    30%{
+        margin-top: 60px;
+    }
+    40%{
+     margin-top: 70px;  
+    }
+    50%{
+        color: transparent;
+        margin-top: -300px;
+    }
+    60%{
+    margin-top: -185px;
+    }
+    70%{
+        margin-top: 70px;
+    }
+    80%{
+        margin-top: 60px;
+    }
+    90%{
+     margin-top: 70px;  
+    }
+}
+ 
+
+
+.adminhome-contentbox{
+    width: 80%;
+    transition: all ease-in-out;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-top: -30px;
+    
+}
+
+.adminhome-text1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 0.1s;
+}
+.adminhome-text2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 0.3s;
+}
+.adminhome-text3{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 0.5s;
+}
+.adminhome-text4{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear;
+    animation-delay: 0.7s;
+}
+.adminhome-text5{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 0.9s;
+}
+.adminhome-text6{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 1.1s;
+}
+.adminhome-text7{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 1.3s;
+}
+.adminhome-text8{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 1.5s;
+}
+.adminhome-text9{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 1.7s;
+}
+.adminhome-text10{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 1.9s;
+}
+.adminhome-text11{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 0.1s;
+}
+.adminhome-text12{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 0.3s;
+}
+.adminhome-text13{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear ;
+    animation-delay: 0.5s;
+}
+.adminhome-text14{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s  linear ;
+    animation-delay: 0.7s;
+}
+.adminhome-text15{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s linear;
+    animation-delay: 0.9s;
+}
+.adminhome-text16{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s  linear ;
+    animation-delay: 1.1s;
+}
+.adminhome-text17{
+    font-size: 40px;
+    font-weight: 500;
+    color: #c2fffb;
+    text-shadow: #64fff5 0px 0px 10px;
+    animation:animatetext 7s  linear;
+    animation-delay: 1.3s;
+}
+

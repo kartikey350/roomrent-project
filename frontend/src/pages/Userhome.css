@@ -1,0 +1,73 @@
+.userhome-base{
+    background:url(https://wallup.net/wp-content/uploads/2019/09/977071-interior-design-room-furniture-architecture-house-condo-apartment-2.jpg);
+    width: 100%;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userhome-main{
+  background: rgba(0, 0, 0, 0.451);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear ;
+  display: inline-block;
+      font-size: 80px;
+      font-weight: 700;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      
+}
+
+@keyframes textclip {
+  0% {
+    background-position: 200% center;
+    filter: blur(10px);
+  }
+  20%{
+
+    filter: blur(8px);
+  }
+  40%{
+    filter: blur(6px);
+  }
+  50%{
+    filter: blur(4px);
+  }
+  65%{
+    filter: blur(2px);
+  }
+  80%{
+    filter: blur(1px);
+  }
+  90%{
+    filter: blur(0px);
+  }
+  100%{
+    filter: blur(0px);
+    
+  }
+}

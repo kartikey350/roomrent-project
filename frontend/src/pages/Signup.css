@@ -1,0 +1,150 @@
+
+
+.registerbox{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background:url(https://th.bing.com/th/id/OIP.45QNmc_Yn4jGCsJnSCBj_wHaE8?rs=1&pid=ImgDetMain);
+    background-size: 100% 100%;
+    padding: 10px 10px;
+   
+}
+
+    
+.register-form:hover{
+    
+    transform: translateY(-10px) translateX(-5px);
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.35),  5px 5px 20px rgba(0, 0, 0, 0.35);
+    transition: all 0.5s;
+}
+
+.register-form{
+    left: 100px;
+    position: absolute;
+    height: 580px;
+    width: 400px;
+    text-align: center;
+    border-radius: 50px 5px;
+    background: #05132792;
+    transition: all 0.5s;
+    margin-top: 10px;
+    padding: 20px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.register-h2{
+    color: #ffffff;
+    font-size: 22px;
+    
+}
+.signup-inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+}
+.signup-inputbox input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    z-index: 10;
+}
+.signup-selectbox{
+    margin-top: 20px;
+    border: none;
+    appearance: none;
+    outline: none;
+    transition: all 0.5s;
+    width: 100%;
+    padding: 0 30px 0 15px;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    background: transparent;
+
+    height: 30px;
+    color: #8f8f8f
+} 
+.signup-selectbox:focus{
+    background:#000000;
+    color: #8f8f8f
+}
+ .option{
+    background: #99b4ff;
+    color: #1c1c1c;
+}
+.register-submit
+{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background:  #9e99ff;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 90px;
+    font-weight: 600;
+}
+
+.signup-inputbox input:valid ~ i,
+.signup-inputbox input:valid ~ i
+{
+    height: 44px;
+    color: #23242a;
+
+}
+
+.register-span{
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    font-size: 1em;
+    color: #8f8f8f;
+    pointer-events: none;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.signup-inputbox input:valid ~ .register-span,
+.signup-inputbox input:focus ~ .register-span
+{
+    color: #23242a;
+    transform: translateX(-10px) translateY(-30px);
+    font-size: 0.75em;
+    margin-bottom: 5px;
+}
+.register-i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #7195c4;
+    border-radius: 4px;
+    transition: o.5s;
+    pointer-events: none;
+    z-index: 9;
+}
+
+.signup-inputbox input:valid ~ i,
+.signup-inputbox input:valid ~ i
+{
+    height: 44px;
+
+}
+.select-i{
+    position: absolute;
+    left: 20px;
+    margin-top:50px;
+    width: 90%;
+    height: 2px;
+    background: #7195c4;
+    border-radius: 4px;
+    transition: o.5s;
+    pointer-events: none;
+    z-index: 9;
+    
+}

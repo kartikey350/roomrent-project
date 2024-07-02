@@ -1,0 +1,75 @@
+.work-base{
+    width: 100.85%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(23,35,50,0.9921218487394958) 100%);
+}
+
+.work-image{
+    width: 500px;
+    margin-left: 90px;
+    box-shadow: 2px 2px 15px rgb(23, 27, 51),3px 3px 30px rgb(24, 28, 54), 2px 2px 50px rgb(25, 30, 58);
+    border-radius: 10px;
+    animation: animate 30s infinite linear alternate;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url(https://images1.apartments.com/i2/pDHfNLLA5N9Ex9o8DrTHcNTnbfhhaHU-TMIOJ7IUtUA/117/flats-on-fifth-pittsburgh-pa-2-bdr-living-room.jpg?p=1);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    10%{
+        background-image: url(https://thearchitectsdiary.com/wp-content/uploads/2017/12/IMGL2478-copy-Large.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    20%{
+        background-image: url(http://www.aposperitis-rooms.com/studio-rooms/photobig/27052014150818-2.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    30%{
+        background-image: url(https://infinitearchitecturedesign.com.au/wp-content/uploads/2018/03/granny-flat.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    40%{
+        background-image: url(https://i.pinimg.com/originals/4b/66/5c/4b665c3c90356518855a01e418c38a8c.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(https://www.lookboxliving.com.sg/wp-content/uploads/2017/10/F_DSC4588.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    60%{
+        background-image: url(https://s3-ap-southeast-1.amazonaws.com/atap-main/gallery-full/7c4a8bdd-5a45-44f1-bc0b-666ff60c1db4/modern-apartment-design.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+    }
+    70%{
+       background-image: url(https://www.divasinterior.com/wp-content/uploads/2021/01/DSC_4332-scaled.jpg);
+       background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    80%{
+       background-image: url(http://www.dwellingdecor.com/wp-content/uploads/2015/12/inspirational-small-studio-apartment.jpg);
+       background-repeat: no-repeat;
+        background-size:100% 100%;
+        
+    }
+    90%{
+       background-image: url(https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg?auto=compress&cs=tinysrgb&w=600);
+       background-repeat: no-repeat;
+        background-size:100% 100%;
+       
+    }
+    100%{
+       background-image: url(https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=600);
+       background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+    }
+}

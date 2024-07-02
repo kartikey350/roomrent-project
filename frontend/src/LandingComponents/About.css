@@ -1,0 +1,23 @@
+.about-base{
+    width: 100.85%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(23,35,50,0.9921218487394958) 100%);
+}
+
+.slider-base{
+ padding: 50px;
+ justify-content: center;
+ border-radius: 80px;
+
+}
+
+
+
+.about-image{
+    width: 800px;
+    height: 400px;
+    border: 2px solid cyan;
+   
+}
+
+

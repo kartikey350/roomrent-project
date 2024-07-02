@@ -1,0 +1,60 @@
+.main-base{
+    width: 100.85%;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(23,35,50,0.9921218487394958) 100%);
+}
+
+.main-heading{
+    font-size: 35px;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(226, 250, 255);
+    text-shadow: 2px 2px 20px rgb(28, 52, 52) , 0px 0px 90px rgb(146, 255, 255), 0px 0px 170px rgb(119, 255, 255) ;
+    letter-spacing: 12px;
+    
+    
+}
+
+
+
+.main-content{
+    color: rgb(193, 247, 255);
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.main-input{
+    font-size: 23px;
+    background: rgba(41, 55, 60, 0.263);
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid rgba(185, 245, 255, 0.763);
+    width: 400px;
+    color: aliceblue;
+}
+
+.main-input:active{
+    color: whitesmoke;
+    padding: 7px;
+    box-shadow: 1px 1px 3px rgb(106, 255, 255) , 1px 1px 9px rgb(99, 255, 255), 1px 1px 15px rgb(152, 255, 255);
+}
+
+.main-input:focus{
+    color: whitesmoke;
+    padding: 7px;
+    box-shadow: 1px 1px 3px rgb(106, 255, 255) , 1px 1px 9px rgb(99, 255, 255), 1px 1px 15px rgb(152, 255, 255);
+}
+
+.main-button{
+    font-size: 22px;
+    width: 200px;
+    padding: 10px;
+    margin-left: -80px;
+}
+.main-button:hover{
+    background: rgba(41, 55, 60, 0.263);
+    color: aliceblue;
+    box-shadow: none;
+}

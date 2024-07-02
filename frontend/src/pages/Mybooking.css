@@ -1,0 +1,21 @@
+.mybooking-main{
+    
+    border-radius: 20px;
+    width: 90%;
+    padding: 20px;
+}
+
+.mybooking-base{
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.614);
+    height: 100vh;
+    width: 100%;
+  
+}
+
+.mybookingbase-image{
+    margin-top:  0;
+    background: url(https://media.istockphoto.com/id/1402897399/photo/empty-wooden-surface-with-blurred-living-room-background.jpg?s=1024x1024&w=is&k=20&c=droniIEQazoUnUfWi_Mn5TfxB9gWz8i_rMoQqlS38uc=);
+    height: 100vh;
+    background-size: 100% 100%;
+}
